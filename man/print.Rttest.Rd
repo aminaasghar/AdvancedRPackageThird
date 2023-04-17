@@ -2,7 +2,7 @@
 % Please edit documentation in R/print.Rttest.R
 \name{print.Rttest}
 \alias{print.Rttest}
-\title{Print function for t tests}
+\title{Print function for t tests for project}
 \usage{
 \method{print}{Rttest}(obj)
 }
@@ -10,7 +10,7 @@
 data frame containing x and y , p value, apha and confidence interval
 }
 \description{
-Print function for t tests
+Print function for t tests for project
 }
 \author{
 Amina Asghar
