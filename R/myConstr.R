@@ -20,7 +20,7 @@ myConstr <- function(x, y, alpha = 0.05) {# First define the function myttest,
   # Here is the updated bit from the first version instead of adding NaN's when
   # printing , it is done here in the constructor by padding the shorter vector
   # vector with NaN's for missing vales so that , the length of both the vectors
-  # is equal when the data frame is created.
+  # equal when the data frame is created.
 
   maximum_length <- max(length(x), length(y))  # first find the maximum length
   # between two vectors, which will
